@@ -57,7 +57,7 @@ drawing.push(currentPath);
 //}
 function draw(){
     background("white");
-    text("Xpos: "+mouseX +"yPos: "+ mouseY,500,40);
+    //text("Xpos: "+mouseX +"yPos: "+ mouseY,500,40);
     if (mouseIsPressed){
         if(mouseX > 0 && mouseX < 800){
         if(mouseY > 0 && mouseY < 800){
